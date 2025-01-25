@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(120deg, #6a11cb, #2575fc);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+}
+
+.gameContainer {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+    aspect-ratio: 1; 
+    width: 100%;
+    max-width: 400px; 
+    margin: auto;
+}
+
+.box {
+    border: 2px solid #6a11cb;
+    font-size: 4rem;
+    color: #333;
+    background: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    transition: transform 0.2s, background-color 0.3s;
+    aspect-ratio: 1; 
+    width: 100%; 
+    height: auto;
+}
+
+.box:hover {
+    background-color: #6a11cb;
+    color: #fff;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.gameinfo h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.info {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.turn-player {
+    color: #6a11cb;
+    font-weight: 700;
+}
+
+.reset {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #2575fc;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reset:hover {
+    background-color: #6a11cb;
+}
+
+.imgbox {
+    display: none;
+    margin-top: 20px;
+}
+
+.imgbox img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+
+    .box {
+        font-size: 2.5rem;
+    }
+
+    .gameContainer {
+        padding: 15px;
+    }
+
+    .gameinfo h1 {
+        font-size: 1.5rem;
+    }
+
+    .info {
+        font-size: 1rem;
+    }
+
+    .reset {
+        padding: 8px 16px;
+    }
+}
