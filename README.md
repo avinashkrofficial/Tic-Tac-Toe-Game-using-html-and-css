@@ -1,5 +1,15 @@
 # Tic-Tac-Toe Game Using HTML, CSS, and JavaScript
 
+## 📖 Table of Contents
+1. [Introduction](#-introduction)
+2. [Features](#-features)
+3. [Technologies Used](#-technologies-used)
+4. [Screenshots](#-screenshots)
+5. [Installation & Usage](#-installation--usage)
+6. [Future Enhancements](#-future-enhancements)
+
+---
+
 ## 🎮 Introduction
 This is a simple **Tic-Tac-Toe** game built using **HTML, CSS, and JavaScript**. The game allows two players to play against each other in a fun and interactive way. It features a responsive and visually appealing design.
 
@@ -49,5 +59,6 @@ This is a simple **Tic-Tac-Toe** game built using **HTML, CSS, and JavaScript**.
 📱 Optimize for better mobile experience.<br>
 
 ---
+
 
 
