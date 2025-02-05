@@ -53,10 +53,10 @@ This is a simple **Tic-Tac-Toe** game built using **HTML, CSS, and JavaScript**.
 
 ---
 
-## 🔮 Future Enhancements
-🚀 Add an AI opponent for single-player mode.<br>
-🎨 Improve UI with animations and sound effects.<br>
-📱 Optimize for better mobile experience.<br>
+##  Future Enhancements
+- Add an AI opponent for single-player mode.<br>
+- Improve UI with animations and sound effects.<br>
+- Optimize for better mobile experience.<br>
 
 ---
 
